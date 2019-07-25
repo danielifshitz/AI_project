@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: problem_generatore.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "internalConsole",
+            "args": [
+                "-p", "500", "-l", "1", "-u", "10", "-f", "problem_1_10", "-s", "1", "-e", "2"
+            ]
+        },
+        {
+            "name": "Python: thread_problem.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "internalConsole",
+            "args": [
+                "-c", "8", "-f", "problem_1_10#1.csv", "-a", "both", "-p", "50", "-m", "0.04"
+            ]
+        },
+        
+    ]
+}

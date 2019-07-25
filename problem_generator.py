@@ -17,7 +17,7 @@ def arguments_parser():
 def main():
     args = arguments_parser()
     for file_number in range(args.start_number, args.end_number + 1):
-        csv_file = args.file_name + "#" + str(file_number) + ".csv"
+        csv_file = "{}_{}_{}_{}#{}.csv".format(args.file_name, str(args.prodacts), str(args.low_value), str(args.upper_value), str(file_number))
         csv_columns = ['pid','duration']
         threads = []
         for item_number in range(1, args.prodacts + 1):

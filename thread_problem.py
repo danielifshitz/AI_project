@@ -73,20 +73,39 @@ def crossover(parent_1, parent_2, cores, mutation_chance, threads_data):
     return chromosome_1, chromosome_2
 
 
-def ga(cores, threads_data, population_size, mutation_chance, run_time):
+def get_best_parents(population):
+    return population[0], population[1]
+
+
+def get_smart_parents(population):
+    probability = [1 / chromosome["value"] for chromosome in population]
+    F = sum(probability)
+    weights = [item / F for item in probability]
+    return random.choices(population=population, weights=weights, k=2)
+
+
+def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_function):
+    if parent_function == "best":
+        p_function = get_best_parents
+    elif parent_function == "smart":
+        p_function = get_smart_parents
     start = time.time()
     population = create_first_population(cores, threads_data, population_size)
     population = sorted(population, key=lambda chromosome: chromosome["value"])
+    generation = 0
     while time.time() - start < run_time:
-        son_1, son_2 = crossover(population[0], population[1], cores, mutation_chance, threads_data)
+        parent_1, parent_2 = p_function(population)
+        son_1, son_2 = crossover(parent_1, parent_2, cores, mutation_chance, threads_data)
         population.append(son_1)
         population.append(son_2)
         population = sorted(population, key=lambda chromosome: chromosome["value"])
         del population[-1]
         del population[-1]
+        generation += 1
 
     end = time.time()
     population[0]["time"] = end - start
+    population[0]["generation"] = generation
     return population[0]
 
 
@@ -95,8 +114,9 @@ def arguments_parser():
     parser.add_argument('-c', "--cores", type=int, required=True)
     parser.add_argument('-f', "--thread_data_file", required=True)
     parser.add_argument('-a', "--algorithm", choices=['ga', 'greedy', 'both'], required=True)
-    parser.add_argument('-p', "--population", type=int)
+    parser.add_argument('-s', "--population_size", type=int)
     parser.add_argument('-m', "--mutation_chance", type=float)
+    parser.add_argument('-p', "--parent_function", choices=['best', 'smart'])
     return parser.parse_args()
 
 
@@ -111,10 +131,10 @@ def main():
     run_time = 1
     if args.algorithm == "greedy" or args.algorithm == "both":
         greedy_solution = greedy(args.cores, threads_data)
-        run_time = greedy_solution["time"] * 100
+        run_time += greedy_solution["time"] * 1000
         print(greedy_solution)
     if args.algorithm == "ga" or args.algorithm == "both":
-        print(ga(args.cores, threads_data, args.population, args.mutation_chance, run_time))
+        print(ga(args.cores, threads_data, args.population_size, args.mutation_chance, run_time, args.parent_function))
 
 
 if __name__ == '__main__':

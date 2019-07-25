@@ -11,7 +11,7 @@
             "program": "${file}",
             "console": "internalConsole",
             "args": [
-                "-p", "500", "-l", "1", "-u", "10", "-f", "problem_1_10", "-s", "1", "-e", "2"
+                "-p", "5000", "-l", "1", "-u", "10", "-f", "problem", "-s", "1", "-e", "1"
             ]
         },
         {
@@ -21,7 +21,7 @@
             "program": "${file}",
             "console": "internalConsole",
             "args": [
-                "-c", "8", "-f", "problem_1_10#1.csv", "-a", "both", "-p", "50", "-m", "0.04"
+                "-c", "8", "-f", "problem_500_1_10#1.csv", "-a", "both", "-s", "50", "-m", "0.04", "-p", "smart"
             ]
         },
         

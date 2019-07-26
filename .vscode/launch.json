@@ -21,7 +21,7 @@
             "program": "${file}",
             "console": "internalConsole",
             "args": [
-                "-c", "8", "-f", "problem_500_1_10#1.csv", "-a", "both", "-s", "50", "-m", "0.04", "-p", "smart"
+                "-c", "8", "-f", "problem_5000_1_10#1.csv", "-a", "both", "-s", "50", "-m", "0.04", "-p", "smart"
             ]
         },
         

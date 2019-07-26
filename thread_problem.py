@@ -2,6 +2,7 @@ import argparse
 import time
 import csv
 import random
+import matplotlib.pyplot as plt
 
 
 def get_next_core(cores, current_core):
@@ -84,7 +85,16 @@ def get_smart_parents(population):
     return random.choices(population=population, weights=weights, k=2)
 
 
-def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_function):
+def draw_ga_history(title, generation, history):
+    plt.figure(figsize=(25,10))
+    plt.title(title, fontsize=14)
+    plt.ylabel('avg solution', fontsize=16)
+    plt.xlabel('generations', fontsize=16)
+    plt.plot(history)
+    plt.show()
+
+
+def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_function, draw_history=False):
     if parent_function == "best":
         p_function = get_best_parents
     elif parent_function == "smart":
@@ -92,8 +102,11 @@ def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_f
     start = time.time()
     population = create_first_population(cores, threads_data, population_size)
     population = sorted(population, key=lambda chromosome: chromosome["value"])
+    history = []
     generation = 0
-    while time.time() - start < run_time:
+    stop_conditions = 0
+    while time.time() - start < run_time and stop_conditions < 100:
+        history.append(sum(chromosome["value"] for chromosome in population) / float(len(population)))
         parent_1, parent_2 = p_function(population)
         son_1, son_2 = crossover(parent_1, parent_2, cores, mutation_chance, threads_data)
         population.append(son_1)
@@ -102,8 +115,19 @@ def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_f
         del population[-1]
         del population[-1]
         generation += 1
+        if population[0] == population[-1]:
+            stop_conditions += 1
+        else:
+            stop_conditions = 0
 
     end = time.time()
+    # with open("ga.csv", "a+") as f:
+    #     writer = csv.writer(f)
+    #     writer.writerow(history)
+    if draw_history:
+        title = "population size = {}, mutation chance = {}, run time = {}".format(population_size, mutation_chance, end - start)
+        draw_ga_history(title, generation, history)
+
     population[0]["time"] = end - start
     population[0]["generation"] = generation
     return population[0]
@@ -117,6 +141,7 @@ def arguments_parser():
     parser.add_argument('-s', "--population_size", type=int)
     parser.add_argument('-m', "--mutation_chance", type=float)
     parser.add_argument('-p', "--parent_function", choices=['best', 'smart'])
+    parser.add_argument('-d', "--draw_history", action='store_true')
     return parser.parse_args()
 
 
@@ -134,7 +159,7 @@ def main():
         run_time += greedy_solution["time"] * 1000
         print(greedy_solution)
     if args.algorithm == "ga" or args.algorithm == "both":
-        print(ga(args.cores, threads_data, args.population_size, args.mutation_chance, run_time, args.parent_function))
+        print(ga(args.cores, threads_data, args.population_size, args.mutation_chance, run_time, args.parent_function, args.draw_history))
 
 
 if __name__ == '__main__':

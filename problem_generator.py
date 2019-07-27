@@ -1,6 +1,7 @@
 import argparse
 import csv
 import random
+import os
 
 
 def arguments_parser():
@@ -16,6 +17,14 @@ def arguments_parser():
 
 def main():
     args = arguments_parser()
+    path = "{}_{}_{}_{}".format(args.file_name, str(args.prodacts), str(args.low_value), str(args.upper_value))
+    try:
+        os.mkdir(path)
+
+    except OSError:
+        print ("Creation of the directory %s failed" % path)
+        return
+
     for file_number in range(args.start_number, args.end_number + 1):
         csv_file = "{}_{}_{}_{}#{}.csv".format(args.file_name, str(args.prodacts), str(args.low_value), str(args.upper_value), str(file_number))
         csv_columns = ['pid','duration']
@@ -30,8 +39,10 @@ def main():
                 writer.writeheader()
                 for data in threads:
                     writer.writerow(data)
+
+            os.rename(csv_file, path + "/" + csv_file)
         except IOError:
-            print("I/O error") 
+            print("I/O error")
 
 
 if __name__ == '__main__':

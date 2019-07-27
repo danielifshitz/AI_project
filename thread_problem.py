@@ -3,6 +3,7 @@ import time
 import csv
 import random
 import matplotlib.pyplot as plt
+import os
 
 
 def get_next_core(cores, current_core):
@@ -94,7 +95,7 @@ def draw_ga_history(title, generation, history):
     plt.show()
 
 
-def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_function, draw_history=False):
+def ga(cores, threads_data, population_size, mutation_chance, timeout, parent_function, draw_history=False):
     if parent_function == "best":
         p_function = get_best_parents
     elif parent_function == "smart":
@@ -104,8 +105,7 @@ def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_f
     population = sorted(population, key=lambda chromosome: chromosome["value"])
     history = []
     generation = 0
-    stop_conditions = 0
-    while time.time() - start < run_time and stop_conditions < 100:
+    while time.time() - start < timeout:
         history.append(sum(chromosome["value"] for chromosome in population) / float(len(population)))
         parent_1, parent_2 = p_function(population)
         son_1, son_2 = crossover(parent_1, parent_2, cores, mutation_chance, threads_data)
@@ -115,15 +115,8 @@ def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_f
         del population[-1]
         del population[-1]
         generation += 1
-        if population[0] == population[-1]:
-            stop_conditions += 1
-        else:
-            stop_conditions = 0
 
     end = time.time()
-    # with open("ga.csv", "a+") as f:
-    #     writer = csv.writer(f)
-    #     writer.writerow(history)
     if draw_history:
         title = "population size = {}, mutation chance = {}, run time = {}".format(population_size, mutation_chance, end - start)
         draw_ga_history(title, generation, history)
@@ -136,7 +129,7 @@ def ga(cores, threads_data, population_size, mutation_chance, run_time, parent_f
 def arguments_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', "--cores", type=int, required=True)
-    parser.add_argument('-f', "--thread_data_file", required=True)
+    parser.add_argument('-f', "--thread_data_folder", required=True)
     parser.add_argument('-a', "--algorithm", choices=['ga', 'greedy', 'both'], required=True)
     parser.add_argument('-s', "--population_size", type=int)
     parser.add_argument('-m', "--mutation_chance", type=float)
@@ -147,19 +140,31 @@ def arguments_parser():
 
 def main():
     args = arguments_parser()
-    reader = csv.DictReader(open(args.thread_data_file))
-    threads_data = []
-    for row in reader:
-        duration = float(row["duration"])
-        threads_data.append({"duration": duration, "pid": row["pid"]})
-    threads_data = sorted(threads_data, key=lambda thread: thread["duration"], reverse=True)
-    run_time = 1
-    if args.algorithm == "greedy" or args.algorithm == "both":
-        greedy_solution = greedy(args.cores, threads_data)
-        run_time += greedy_solution["time"] * 1000
-        print(greedy_solution)
-    if args.algorithm == "ga" or args.algorithm == "both":
-        print(ga(args.cores, threads_data, args.population_size, args.mutation_chance, run_time, args.parent_function, args.draw_history))
+    problems = os.listdir(args.thread_data_folder)
+    f = open(args.thread_data_folder + "(" + str(args.cores) + ").csv", "w")
+    writer = csv.writer(f)
+    for problem in problems:
+        print(problem)
+        reader = csv.DictReader(open(args.thread_data_folder + "/" + problem))
+        threads_data = []
+        solution_data = []
+        for row in reader:
+            duration = float(row["duration"])
+            threads_data.append({"duration": duration, "pid": row["pid"]})
+        threads_data = sorted(threads_data, key=lambda thread: thread["duration"], reverse=True)
+        run_time = 1
+        if args.algorithm == "greedy" or args.algorithm == "both":
+            greedy_solution = greedy(args.cores, threads_data)
+            solution_data.append(greedy_solution["value"])
+            run_time += greedy_solution["time"] * 1000
+
+        if args.algorithm == "ga" or args.algorithm == "both":
+            for _ in range(4):
+                ga_solution = ga(args.cores, threads_data, args.population_size, args.mutation_chance, run_time, args.parent_function, args.draw_history)
+                solution_data.append(ga_solution["value"])
+
+        writer.writerow(solution_data)
+
 
 
 if __name__ == '__main__':

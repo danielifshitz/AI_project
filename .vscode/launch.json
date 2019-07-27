@@ -11,7 +11,7 @@
             "program": "${file}",
             "console": "internalConsole",
             "args": [
-                "-p", "10000", "-l", "1", "-u", "1000", "-f", "problem", "-s", "1", "-e", "100"
+                "-p", "100", "-l", "1", "-u", "10", "-f", "problem", "-s", "1", "-e", "100"
             ]
         },
         {

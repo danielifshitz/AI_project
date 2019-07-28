@@ -1,0 +1,6 @@
+Gold 5 3
+Silver 12 2
+Diamonds 3 10
+Lithium 4 5
+Copper 18 2
+Money 79 1

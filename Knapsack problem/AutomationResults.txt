@@ -1,0 +1,1189 @@
+Test 1, NumberOfItems = 10
+
+Tie, Bag size = 68, Price = 0
+Tie, Bag size = 135, Price = 0
+Tie, Bag size = 203, Price = 0
+Tie, Bag size = 271, Price = 0
+Tie, Bag size = 339, Price = 3836
+Tie, Bag size = 406, Price = 3836
+Tie, Bag size = 474, Price = 3836
+Tie, Bag size = 542, Price = 4160
+Tie, Bag size = 610, Price = 6662
+Tie, Bag size = 677, Price = 6662
+Tie, Bag size = 745, Price = 6662
+Genetic won, Bag size = 813, Price = 7996
+Tie, Bag size = 881, Price = 10803
+Tie, Bag size = 948, Price = 10803
+Tie, Bag size = 1016, Price = 10803
+Tie, Bag size = 1084, Price = 10803
+Tie, Bag size = 1152, Price = 14639
+Tie, Bag size = 1219, Price = 14639
+Tie, Bag size = 1287, Price = 14639
+Tie, Bag size = 1355, Price = 14963
+Tie, Bag size = 1423, Price = 17465
+Tie, Bag size = 1490, Price = 17465
+Tie, Bag size = 1558, Price = 17465
+Genetic won, Bag size = 1626, Price = 18799
+Genetic won, Bag size = 1694, Price = 18799
+Genetic won, Bag size = 1761, Price = 18799
+Genetic won, Bag size = 1829, Price = 18799
+Tie, Bag size = 1897, Price = 20687
+Tie, Bag size = 1964, Price = 21625
+Tie, Bag size = 2032, Price = 21625
+Tie, Bag size = 2100, Price = 21625
+Tie, Bag size = 2168, Price = 21625
+Tie, Bag size = 2235, Price = 23513
+Greedy won, Bag size = 2303, Price = 23513
+Tie, Bag size = 2371, Price = 23513
+Greedy won, Bag size = 2439, Price = 24847
+Tie, Bag size = 2506, Price = 24847
+Genetic won, Bag size = 2574, Price = 24847
+Genetic won, Bag size = 2642, Price = 24463
+Tie, Bag size = 2710, Price = 27673
+Tie, Bag size = 2777, Price = 27673
+Tie, Bag size = 2845, Price = 27673
+Tie, Bag size = 2913, Price = 27673
+Tie, Bag size = 2981, Price = 27673
+Tie, Bag size = 3048, Price = 27673
+Genetic won, Bag size = 3116, Price = 27787
+Genetic won, Bag size = 3184, Price = 28717
+Genetic won, Bag size = 3252, Price = 28717
+Genetic won, Bag size = 3319, Price = 29177
+Tie, Bag size = 3387, Price = 30511
+Tie, Bag size = 3455, Price = 30613
+Tie, Bag size = 3522, Price = 31543
+Tie, Bag size = 3590, Price = 31543
+Tie, Bag size = 3658, Price = 33337
+Tie, Bag size = 3726, Price = 33337
+Tie, Bag size = 3793, Price = 33337
+Tie, Bag size = 3861, Price = 33337
+Tie, Bag size = 3929, Price = 33337
+Greedy won, Bag size = 3997, Price = 33337
+Genetic won, Bag size = 4064, Price = 33451
+Tie, Bag size = 4132, Price = 34381
+Tie, Bag size = 4200, Price = 34381
+Genetic won, Bag size = 4268, Price = 34651
+Genetic won, Bag size = 4335, Price = 34651
+Tie, Bag size = 4403, Price = 36277
+Tie, Bag size = 4471, Price = 37207
+Tie, Bag size = 4539, Price = 37207
+Tie, Bag size = 4606, Price = 37207
+Tie, Bag size = 4674, Price = 37207
+Tie, Bag size = 4742, Price = 37207
+Tie, Bag size = 4810, Price = 37207
+Tie, Bag size = 4877, Price = 37489
+Greedy won, Bag size = 4945, Price = 37489
+Genetic won, Bag size = 5013, Price = 37591
+Genetic won, Bag size = 5080, Price = 37591
+Tie, Bag size = 5148, Price = 40147
+Tie, Bag size = 5216, Price = 40315
+Tie, Bag size = 5284, Price = 40315
+Tie, Bag size = 5351, Price = 40315
+Greedy won, Bag size = 5419, Price = 40315
+Tie, Bag size = 5487, Price = 40315
+Tie, Bag size = 5555, Price = 40315
+Tie, Bag size = 5622, Price = 40429
+Tie, Bag size = 5690, Price = 40429
+Tie, Bag size = 5758, Price = 40429
+Tie, Bag size = 5826, Price = 40429
+Tie, Bag size = 5893, Price = 40429
+Tie, Bag size = 5961, Price = 43255
+Tie, Bag size = 6029, Price = 43255
+Tie, Bag size = 6097, Price = 43255
+Tie, Bag size = 6164, Price = 43255
+Tie, Bag size = 6232, Price = 43255
+Tie, Bag size = 6300, Price = 43255
+Tie, Bag size = 6368, Price = 43255
+Tie, Bag size = 6435, Price = 43255
+Tie, Bag size = 6503, Price = 43255
+Tie, Bag size = 6571, Price = 43255
+Tie, Bag size = 6639, Price = 43255
+Tie, Bag size = 6706, Price = 43255
+Tie, Bag size = 6774, Price = 44104
+
+Tie: 79 Times
+Genetic: 16 Times
+Greedy: 5 Times
+
+
+Test 2, NumberOfItems = 18
+
+Tie, Bag size = 101, Price = 972
+Tie, Bag size = 201, Price = 972
+Tie, Bag size = 302, Price = 3724
+Tie, Bag size = 403, Price = 4788
+Genetic won, Bag size = 504, Price = 5760
+Genetic won, Bag size = 604, Price = 5772
+Genetic won, Bag size = 705, Price = 8512
+Tie, Bag size = 806, Price = 9484
+Genetic won, Bag size = 907, Price = 9588
+Tie, Bag size = 1007, Price = 13880
+Tie, Bag size = 1108, Price = 13880
+Tie, Bag size = 1209, Price = 16632
+Tie, Bag size = 1310, Price = 17604
+Genetic won, Bag size = 1410, Price = 18668
+Genetic won, Bag size = 1511, Price = 18680
+Tie, Bag size = 1612, Price = 19640
+Tie, Bag size = 1713, Price = 22392
+Genetic won, Bag size = 1813, Price = 22404
+Greedy won, Bag size = 1914, Price = 24584
+Greedy won, Bag size = 2015, Price = 25556
+Tie, Bag size = 2116, Price = 25556
+Greedy won, Bag size = 2216, Price = 28308
+Greedy won, Bag size = 2317, Price = 29372
+Genetic won, Bag size = 2418, Price = 30344
+Greedy won, Bag size = 2518, Price = 30344
+Greedy won, Bag size = 2619, Price = 31316
+Greedy won, Bag size = 2720, Price = 34068
+Greedy won, Bag size = 2821, Price = 35040
+Greedy won, Bag size = 2921, Price = 35132
+Greedy won, Bag size = 3022, Price = 35144
+Tie, Bag size = 3123, Price = 38868
+Greedy won, Bag size = 3224, Price = 39828
+Greedy won, Bag size = 3324, Price = 39840
+Tie, Bag size = 3425, Price = 39828
+Genetic won, Bag size = 3526, Price = 40904
+Genetic won, Bag size = 3627, Price = 40803
+Greedy won, Bag size = 3727, Price = 44628
+Tie, Bag size = 3828, Price = 44628
+Tie, Bag size = 3929, Price = 45058
+Tie, Bag size = 4030, Price = 45591
+Greedy won, Bag size = 4130, Price = 45591
+Tie, Bag size = 4231, Price = 46194
+Greedy won, Bag size = 4332, Price = 48042
+Tie, Bag size = 4433, Price = 48042
+Greedy won, Bag size = 4533, Price = 49032
+Greedy won, Bag size = 4634, Price = 50004
+Greedy won, Bag size = 4735, Price = 50004
+Greedy won, Bag size = 4836, Price = 51450
+Greedy won, Bag size = 4936, Price = 51450
+Tie, Bag size = 5037, Price = 51450
+Greedy won, Bag size = 5138, Price = 52446
+Greedy won, Bag size = 5238, Price = 53418
+Greedy won, Bag size = 5339, Price = 53418
+Greedy won, Bag size = 5440, Price = 53848
+Greedy won, Bag size = 5541, Price = 54381
+Genetic won, Bag size = 5641, Price = 54381
+Greedy won, Bag size = 5742, Price = 56826
+Greedy won, Bag size = 5843, Price = 56826
+Greedy won, Bag size = 5944, Price = 56826
+Greedy won, Bag size = 6044, Price = 57256
+Greedy won, Bag size = 6145, Price = 57789
+Tie, Bag size = 6246, Price = 57789
+Greedy won, Bag size = 6347, Price = 58630
+Greedy won, Bag size = 6447, Price = 59602
+Greedy won, Bag size = 6548, Price = 59602
+Greedy won, Bag size = 6649, Price = 60032
+Greedy won, Bag size = 6750, Price = 60565
+Greedy won, Bag size = 6850, Price = 60565
+Greedy won, Bag size = 6951, Price = 61168
+Greedy won, Bag size = 7052, Price = 61198
+Greedy won, Bag size = 7153, Price = 61168
+Greedy won, Bag size = 7253, Price = 62023
+Genetic won, Bag size = 7354, Price = 62131
+Greedy won, Bag size = 7455, Price = 62453
+Greedy won, Bag size = 7555, Price = 62986
+Greedy won, Bag size = 7656, Price = 62986
+Tie, Bag size = 7757, Price = 63589
+Greedy won, Bag size = 7858, Price = 63619
+Greedy won, Bag size = 7958, Price = 63619
+Greedy won, Bag size = 8059, Price = 64049
+Greedy won, Bag size = 8160, Price = 64582
+Greedy won, Bag size = 8261, Price = 64552
+Greedy won, Bag size = 8361, Price = 65185
+Greedy won, Bag size = 8462, Price = 65185
+Greedy won, Bag size = 8563, Price = 65615
+Tie, Bag size = 8664, Price = 66148
+Tie, Bag size = 8764, Price = 66148
+Greedy won, Bag size = 8865, Price = 66578
+Tie, Bag size = 8966, Price = 66578
+Tie, Bag size = 9067, Price = 66582
+Greedy won, Bag size = 9167, Price = 66582
+Tie, Bag size = 9268, Price = 67012
+Tie, Bag size = 9369, Price = 67012
+Greedy won, Bag size = 9470, Price = 67012
+Greedy won, Bag size = 9570, Price = 67012
+Tie, Bag size = 9671, Price = 67397
+Tie, Bag size = 9772, Price = 67397
+Tie, Bag size = 9873, Price = 67401
+Tie, Bag size = 9973, Price = 67401
+Tie, Bag size = 10074, Price = 67831
+
+Tie: 33 Times
+Genetic: 12 Times
+Greedy: 55 Times
+
+
+Test 3, NumberOfItems = 26
+
+Tie, Bag size = 125, Price = 1220
+Tie, Bag size = 251, Price = 1508
+Tie, Bag size = 376, Price = 2612
+Tie, Bag size = 501, Price = 5208
+Tie, Bag size = 627, Price = 6686
+Tie, Bag size = 752, Price = 9598
+Tie, Bag size = 878, Price = 10818
+Tie, Bag size = 1003, Price = 12935
+Greedy won, Bag size = 1128, Price = 14263
+Genetic won, Bag size = 1254, Price = 14698
+Tie, Bag size = 1379, Price = 15547
+Greedy won, Bag size = 1504, Price = 18143
+Tie, Bag size = 1630, Price = 19621
+Greedy won, Bag size = 1755, Price = 22533
+Greedy won, Bag size = 1880, Price = 23753
+Greedy won, Bag size = 2006, Price = 24593
+Greedy won, Bag size = 2131, Price = 26836
+Greedy won, Bag size = 2256, Price = 27633
+Greedy won, Bag size = 2382, Price = 29111
+Greedy won, Bag size = 2507, Price = 30403
+Greedy won, Bag size = 2633, Price = 32044
+Genetic won, Bag size = 2758, Price = 34031
+Greedy won, Bag size = 2883, Price = 34188
+Greedy won, Bag size = 3009, Price = 35028
+Greedy won, Bag size = 3134, Price = 37727
+Greedy won, Bag size = 3259, Price = 38947
+Greedy won, Bag size = 3385, Price = 40051
+Greedy won, Bag size = 3510, Price = 40231
+Greedy won, Bag size = 3635, Price = 41071
+Greedy won, Bag size = 3761, Price = 44100
+Greedy won, Bag size = 3886, Price = 45320
+Greedy won, Bag size = 4012, Price = 46424
+Greedy won, Bag size = 4137, Price = 47084
+Greedy won, Bag size = 4262, Price = 50498
+Greedy won, Bag size = 4388, Price = 51718
+Greedy won, Bag size = 4513, Price = 52558
+Greedy won, Bag size = 4638, Price = 53002
+Greedy won, Bag size = 4764, Price = 53842
+Greedy won, Bag size = 4889, Price = 55921
+Greedy won, Bag size = 5014, Price = 56845
+Greedy won, Bag size = 5140, Price = 57685
+Greedy won, Bag size = 5265, Price = 57865
+Greedy won, Bag size = 5390, Price = 59897
+Greedy won, Bag size = 5516, Price = 60821
+Greedy won, Bag size = 5641, Price = 61661
+Greedy won, Bag size = 5767, Price = 61841
+Greedy won, Bag size = 5892, Price = 62209
+Greedy won, Bag size = 6017, Price = 63575
+Greedy won, Bag size = 6143, Price = 64484
+Greedy won, Bag size = 6268, Price = 66953
+Greedy won, Bag size = 6393, Price = 67877
+Greedy won, Bag size = 6519, Price = 68717
+Greedy won, Bag size = 6644, Price = 68897
+Greedy won, Bag size = 6769, Price = 69907
+Greedy won, Bag size = 6895, Price = 70831
+Greedy won, Bag size = 7020, Price = 71471
+Greedy won, Bag size = 7146, Price = 72663
+Greedy won, Bag size = 7271, Price = 73883
+Greedy won, Bag size = 7396, Price = 74807
+Greedy won, Bag size = 7522, Price = 75647
+Greedy won, Bag size = 7647, Price = 75827
+Greedy won, Bag size = 7772, Price = 76453
+Greedy won, Bag size = 7898, Price = 77561
+Greedy won, Bag size = 8023, Price = 78401
+Greedy won, Bag size = 8148, Price = 78919
+Greedy won, Bag size = 8274, Price = 79207
+Greedy won, Bag size = 8399, Price = 80203
+Greedy won, Bag size = 8524, Price = 80971
+Greedy won, Bag size = 8650, Price = 81424
+Greedy won, Bag size = 8775, Price = 81712
+Greedy won, Bag size = 8901, Price = 82816
+Greedy won, Bag size = 9026, Price = 83476
+Greedy won, Bag size = 9151, Price = 83656
+Greedy won, Bag size = 9277, Price = 84024
+Greedy won, Bag size = 9402, Price = 84133
+Greedy won, Bag size = 9527, Price = 84320
+Greedy won, Bag size = 9653, Price = 85417
+Greedy won, Bag size = 9778, Price = 85417
+Greedy won, Bag size = 9903, Price = 85785
+Greedy won, Bag size = 10029, Price = 85785
+Greedy won, Bag size = 10154, Price = 86081
+Greedy won, Bag size = 10280, Price = 86081
+Greedy won, Bag size = 10405, Price = 86347
+Greedy won, Bag size = 10530, Price = 87187
+Greedy won, Bag size = 10656, Price = 87471
+Greedy won, Bag size = 10781, Price = 87555
+Greedy won, Bag size = 10906, Price = 87471
+Greedy won, Bag size = 11032, Price = 87767
+Greedy won, Bag size = 11157, Price = 87853
+Greedy won, Bag size = 11282, Price = 88033
+Greedy won, Bag size = 11408, Price = 88873
+Greedy won, Bag size = 11533, Price = 89133
+Greedy won, Bag size = 11658, Price = 89241
+Greedy won, Bag size = 11784, Price = 89241
+Greedy won, Bag size = 11909, Price = 89537
+Greedy won, Bag size = 12035, Price = 89675
+Greedy won, Bag size = 12160, Price = 89803
+Tie, Bag size = 12285, Price = 89971
+Greedy won, Bag size = 12411, Price = 89971
+
+Tie: 11 Times
+Genetic: 2 Times
+Greedy: 86 Times
+
+
+Test 4, NumberOfItems = 34
+
+Tie, Bag size = 180, Price = 830
+Tie, Bag size = 360, Price = 3623
+Genetic won, Bag size = 540, Price = 5631
+Tie, Bag size = 720, Price = 8514
+Greedy won, Bag size = 900, Price = 11454
+Greedy won, Bag size = 1080, Price = 13554
+Tie, Bag size = 1260, Price = 15092
+Greedy won, Bag size = 1440, Price = 17235
+Greedy won, Bag size = 1620, Price = 20166
+Greedy won, Bag size = 1800, Price = 22131
+Genetic won, Bag size = 1980, Price = 23531
+Greedy won, Bag size = 2160, Price = 25313
+Greedy won, Bag size = 2339, Price = 28163
+Greedy won, Bag size = 2519, Price = 30344
+Greedy won, Bag size = 2699, Price = 32318
+Greedy won, Bag size = 2879, Price = 34310
+Greedy won, Bag size = 3059, Price = 36191
+Greedy won, Bag size = 3239, Price = 37021
+Greedy won, Bag size = 3419, Price = 40315
+Greedy won, Bag size = 3599, Price = 42523
+Greedy won, Bag size = 3779, Price = 44623
+Greedy won, Bag size = 3959, Price = 46352
+Greedy won, Bag size = 4139, Price = 47242
+Greedy won, Bag size = 4319, Price = 50520
+Greedy won, Bag size = 4499, Price = 52528
+Greedy won, Bag size = 4679, Price = 54349
+Greedy won, Bag size = 4859, Price = 55239
+Greedy won, Bag size = 5039, Price = 57800
+Greedy won, Bag size = 5219, Price = 59808
+Greedy won, Bag size = 5399, Price = 61629
+Greedy won, Bag size = 5579, Price = 62459
+Greedy won, Bag size = 5759, Price = 64145
+Greedy won, Bag size = 5939, Price = 67010
+Greedy won, Bag size = 6119, Price = 69018
+Greedy won, Bag size = 6299, Price = 69848
+Greedy won, Bag size = 6479, Price = 71339
+Greedy won, Bag size = 6659, Price = 73355
+Greedy won, Bag size = 6838, Price = 75350
+Greedy won, Bag size = 7018, Price = 77231
+Greedy won, Bag size = 7198, Price = 78061
+Greedy won, Bag size = 7378, Price = 79763
+Greedy won, Bag size = 7558, Price = 82545
+Greedy won, Bag size = 7738, Price = 83435
+Greedy won, Bag size = 7918, Price = 84866
+Greedy won, Bag size = 8098, Price = 86882
+Greedy won, Bag size = 8278, Price = 87772
+Greedy won, Bag size = 8458, Price = 89999
+Greedy won, Bag size = 8638, Price = 91712
+Greedy won, Bag size = 8818, Price = 93593
+Greedy won, Bag size = 8998, Price = 94423
+Greedy won, Bag size = 9178, Price = 96125
+Greedy won, Bag size = 9358, Price = 98336
+Greedy won, Bag size = 9538, Price = 99166
+Greedy won, Bag size = 9718, Price = 101868
+Greedy won, Bag size = 9898, Price = 102758
+Greedy won, Bag size = 10078, Price = 104384
+Greedy won, Bag size = 10258, Price = 106671
+Greedy won, Bag size = 10438, Price = 107593
+Greedy won, Bag size = 10618, Price = 109127
+Greedy won, Bag size = 10798, Price = 110125
+Greedy won, Bag size = 10978, Price = 111152
+Greedy won, Bag size = 11158, Price = 111982
+Greedy won, Bag size = 11337, Price = 112680
+Greedy won, Bag size = 11517, Price = 115427
+Greedy won, Bag size = 11697, Price = 116425
+Greedy won, Bag size = 11877, Price = 117452
+Greedy won, Bag size = 12057, Price = 118282
+Greedy won, Bag size = 12237, Price = 118980
+Greedy won, Bag size = 12417, Price = 119810
+Greedy won, Bag size = 12597, Price = 120777
+Greedy won, Bag size = 12777, Price = 121775
+Greedy won, Bag size = 12957, Price = 122892
+Greedy won, Bag size = 13137, Price = 123180
+Greedy won, Bag size = 13317, Price = 124272
+Greedy won, Bag size = 13497, Price = 125317
+Greedy won, Bag size = 13677, Price = 126450
+Greedy won, Bag size = 13857, Price = 126890
+Greedy won, Bag size = 14037, Price = 127268
+Greedy won, Bag size = 14217, Price = 128422
+Greedy won, Bag size = 14397, Price = 128800
+Greedy won, Bag size = 14577, Price = 129122
+Greedy won, Bag size = 14757, Price = 130814
+Greedy won, Bag size = 14937, Price = 131194
+Greedy won, Bag size = 15117, Price = 131572
+Greedy won, Bag size = 15297, Price = 131979
+Greedy won, Bag size = 15477, Price = 132944
+Greedy won, Bag size = 15657, Price = 133384
+Greedy won, Bag size = 15836, Price = 133762
+Greedy won, Bag size = 16016, Price = 134084
+Greedy won, Bag size = 16196, Price = 134084
+Greedy won, Bag size = 16376, Price = 134746
+Greedy won, Bag size = 16556, Price = 134339
+Greedy won, Bag size = 16736, Price = 134339
+Greedy won, Bag size = 16916, Price = 135886
+Greedy won, Bag size = 17096, Price = 135886
+Greedy won, Bag size = 17276, Price = 136524
+Greedy won, Bag size = 17456, Price = 136902
+Genetic won, Bag size = 17636, Price = 137286
+Greedy won, Bag size = 17816, Price = 137664
+Greedy won, Bag size = 17996, Price = 137919
+
+Tie: 4 Times
+Genetic: 3 Times
+Greedy: 93 Times
+
+
+Test 5, NumberOfItems = 42
+
+Tie, Bag size = 252, Price = 1992
+Tie, Bag size = 503, Price = 6468
+Genetic won, Bag size = 755, Price = 8460
+Tie, Bag size = 1007, Price = 12814
+Genetic won, Bag size = 1259, Price = 15888
+Greedy won, Bag size = 1510, Price = 18973
+Greedy won, Bag size = 1762, Price = 22695
+Greedy won, Bag size = 2014, Price = 24238
+Greedy won, Bag size = 2265, Price = 29125
+Greedy won, Bag size = 2517, Price = 31429
+Greedy won, Bag size = 2769, Price = 33159
+Greedy won, Bag size = 3021, Price = 37597
+Greedy won, Bag size = 3272, Price = 39589
+Greedy won, Bag size = 3524, Price = 42813
+Greedy won, Bag size = 3776, Price = 46533
+Greedy won, Bag size = 4027, Price = 49009
+Greedy won, Bag size = 4279, Price = 52233
+Greedy won, Bag size = 4531, Price = 54223
+Greedy won, Bag size = 4782, Price = 57138
+Greedy won, Bag size = 5034, Price = 60362
+Greedy won, Bag size = 5286, Price = 63846
+Greedy won, Bag size = 5538, Price = 65576
+Greedy won, Bag size = 5789, Price = 67410
+Greedy won, Bag size = 6041, Price = 68312
+Greedy won, Bag size = 6293, Price = 72479
+Greedy won, Bag size = 6544, Price = 74313
+Greedy won, Bag size = 6796, Price = 75215
+Greedy won, Bag size = 7048, Price = 78302
+Greedy won, Bag size = 7300, Price = 81038
+Greedy won, Bag size = 7551, Price = 83612
+Greedy won, Bag size = 7803, Price = 86348
+Greedy won, Bag size = 8055, Price = 86348
+Greedy won, Bag size = 8306, Price = 90956
+Greedy won, Bag size = 8558, Price = 92790
+Greedy won, Bag size = 8810, Price = 93692
+Greedy won, Bag size = 9062, Price = 95526
+Greedy won, Bag size = 9313, Price = 97392
+Greedy won, Bag size = 9565, Price = 100308
+Greedy won, Bag size = 9817, Price = 101646
+Greedy won, Bag size = 10068, Price = 103512
+Greedy won, Bag size = 10320, Price = 106268
+Greedy won, Bag size = 10572, Price = 108102
+Greedy won, Bag size = 10824, Price = 109968
+Greedy won, Bag size = 11075, Price = 109968
+Greedy won, Bag size = 11327, Price = 112440
+Greedy won, Bag size = 11579, Price = 114306
+Greedy won, Bag size = 11830, Price = 114306
+Greedy won, Bag size = 12082, Price = 117072
+Greedy won, Bag size = 12334, Price = 118338
+Greedy won, Bag size = 12585, Price = 119502
+Greedy won, Bag size = 12837, Price = 121104
+Greedy won, Bag size = 13089, Price = 122844
+Greedy won, Bag size = 13341, Price = 124644
+Greedy won, Bag size = 13592, Price = 124794
+Greedy won, Bag size = 13844, Price = 126534
+Greedy won, Bag size = 14096, Price = 128334
+Greedy won, Bag size = 14347, Price = 128334
+Greedy won, Bag size = 14599, Price = 129774
+Greedy won, Bag size = 14851, Price = 131514
+Greedy won, Bag size = 15103, Price = 133314
+Greedy won, Bag size = 15354, Price = 133314
+Greedy won, Bag size = 15606, Price = 135054
+Greedy won, Bag size = 15858, Price = 135774
+Greedy won, Bag size = 16109, Price = 136938
+Greedy won, Bag size = 16361, Price = 137514
+Greedy won, Bag size = 16613, Price = 139386
+Greedy won, Bag size = 16865, Price = 139386
+Greedy won, Bag size = 17116, Price = 141126
+Greedy won, Bag size = 17368, Price = 141828
+Greedy won, Bag size = 17620, Price = 142614
+Greedy won, Bag size = 17871, Price = 144354
+Greedy won, Bag size = 18123, Price = 144354
+Greedy won, Bag size = 18375, Price = 146390
+Greedy won, Bag size = 18627, Price = 146390
+Greedy won, Bag size = 18878, Price = 147554
+Greedy won, Bag size = 19130, Price = 148343
+Greedy won, Bag size = 19382, Price = 149507
+Greedy won, Bag size = 19633, Price = 149507
+Greedy won, Bag size = 19885, Price = 150773
+Greedy won, Bag size = 20137, Price = 150773
+Greedy won, Bag size = 20389, Price = 151937
+Greedy won, Bag size = 20640, Price = 152639
+Greedy won, Bag size = 20892, Price = 153289
+Greedy won, Bag size = 21144, Price = 153869
+Greedy won, Bag size = 21395, Price = 154365
+Greedy won, Bag size = 21647, Price = 154365
+Greedy won, Bag size = 21899, Price = 155221
+Greedy won, Bag size = 22150, Price = 155383
+Greedy won, Bag size = 22402, Price = 156297
+Greedy won, Bag size = 22654, Price = 156735
+Greedy won, Bag size = 22906, Price = 156999
+Greedy won, Bag size = 23157, Price = 157811
+Greedy won, Bag size = 23409, Price = 157811
+Greedy won, Bag size = 23661, Price = 158513
+Greedy won, Bag size = 23912, Price = 158930
+Greedy won, Bag size = 24164, Price = 158930
+Tie, Bag size = 24416, Price = 159399
+Greedy won, Bag size = 24668, Price = 159399
+Greedy won, Bag size = 24919, Price = 159801
+Greedy won, Bag size = 25171, Price = 160218
+
+Tie: 4 Times
+Genetic: 2 Times
+Greedy: 94 Times
+
+
+Test 6, NumberOfItems = 50
+
+Tie, Bag size = 225, Price = 2954
+Genetic won, Bag size = 450, Price = 5580
+Greedy won, Bag size = 674, Price = 9192
+Greedy won, Bag size = 899, Price = 12086
+Greedy won, Bag size = 1124, Price = 15556
+Greedy won, Bag size = 1349, Price = 18424
+Greedy won, Bag size = 1574, Price = 21820
+Greedy won, Bag size = 1798, Price = 24292
+Greedy won, Bag size = 2023, Price = 27194
+Greedy won, Bag size = 2248, Price = 31370
+Greedy won, Bag size = 2473, Price = 33650
+Greedy won, Bag size = 2698, Price = 36566
+Genetic won, Bag size = 2922, Price = 38678
+Greedy won, Bag size = 3147, Price = 42152
+Greedy won, Bag size = 3372, Price = 45428
+Greedy won, Bag size = 3597, Price = 47900
+Greedy won, Bag size = 3822, Price = 50744
+Greedy won, Bag size = 4046, Price = 52568
+Greedy won, Bag size = 4271, Price = 55568
+Greedy won, Bag size = 4496, Price = 58736
+Greedy won, Bag size = 4721, Price = 61028
+Greedy won, Bag size = 4946, Price = 64484
+Greedy won, Bag size = 5170, Price = 66668
+Greedy won, Bag size = 5395, Price = 69284
+Greedy won, Bag size = 5620, Price = 71948
+Greedy won, Bag size = 5845, Price = 74684
+Greedy won, Bag size = 6070, Price = 76976
+Greedy won, Bag size = 6294, Price = 79640
+Greedy won, Bag size = 6519, Price = 81932
+Greedy won, Bag size = 6744, Price = 84434
+Greedy won, Bag size = 6969, Price = 86780
+Greedy won, Bag size = 7194, Price = 90195
+Greedy won, Bag size = 7418, Price = 92019
+Greedy won, Bag size = 7643, Price = 94197
+Greedy won, Bag size = 7868, Price = 96237
+Greedy won, Bag size = 8093, Price = 98835
+Greedy won, Bag size = 8318, Price = 101337
+Greedy won, Bag size = 8542, Price = 102777
+Greedy won, Bag size = 8767, Price = 105659
+Greedy won, Bag size = 8992, Price = 107837
+Greedy won, Bag size = 9217, Price = 109877
+Greedy won, Bag size = 9442, Price = 112004
+Greedy won, Bag size = 9666, Price = 113759
+Greedy won, Bag size = 9891, Price = 115259
+Greedy won, Bag size = 10116, Price = 117926
+Greedy won, Bag size = 10341, Price = 119426
+Greedy won, Bag size = 10566, Price = 120665
+Greedy won, Bag size = 10790, Price = 124325
+Greedy won, Bag size = 11015, Price = 125765
+Greedy won, Bag size = 11240, Price = 127541
+Greedy won, Bag size = 11465, Price = 129039
+Greedy won, Bag size = 11690, Price = 131714
+Greedy won, Bag size = 11914, Price = 133682
+Greedy won, Bag size = 12139, Price = 134930
+Greedy won, Bag size = 12364, Price = 137987
+Greedy won, Bag size = 12589, Price = 140012
+Greedy won, Bag size = 12814, Price = 141980
+Greedy won, Bag size = 13038, Price = 143228
+Greedy won, Bag size = 13263, Price = 146285
+Greedy won, Bag size = 13488, Price = 147785
+Greedy won, Bag size = 13713, Price = 149855
+Greedy won, Bag size = 13938, Price = 151103
+Greedy won, Bag size = 14162, Price = 154160
+Greedy won, Bag size = 14387, Price = 155660
+Greedy won, Bag size = 14612, Price = 156899
+Greedy won, Bag size = 14837, Price = 159006
+Greedy won, Bag size = 15062, Price = 159662
+Greedy won, Bag size = 15286, Price = 161951
+Greedy won, Bag size = 15511, Price = 162931
+Greedy won, Bag size = 15736, Price = 165465
+Greedy won, Bag size = 15961, Price = 166984
+Greedy won, Bag size = 16186, Price = 167964
+Greedy won, Bag size = 16410, Price = 169264
+Greedy won, Bag size = 16635, Price = 171137
+Greedy won, Bag size = 16860, Price = 171802
+Greedy won, Bag size = 17085, Price = 174224
+Greedy won, Bag size = 17310, Price = 175204
+Greedy won, Bag size = 17534, Price = 177423
+Greedy won, Bag size = 17759, Price = 178403
+Greedy won, Bag size = 17984, Price = 180387
+Greedy won, Bag size = 18209, Price = 181367
+Greedy won, Bag size = 18434, Price = 182667
+Greedy won, Bag size = 18658, Price = 183647
+Greedy won, Bag size = 18883, Price = 184567
+Greedy won, Bag size = 19108, Price = 185363
+Greedy won, Bag size = 19333, Price = 186283
+Greedy won, Bag size = 19558, Price = 186910
+Greedy won, Bag size = 19782, Price = 187219
+Greedy won, Bag size = 20007, Price = 187219
+Greedy won, Bag size = 20232, Price = 188065
+Greedy won, Bag size = 20457, Price = 189508
+Greedy won, Bag size = 20682, Price = 189817
+Greedy won, Bag size = 20906, Price = 190663
+Greedy won, Bag size = 21131, Price = 191800
+Greedy won, Bag size = 21356, Price = 190966
+Greedy won, Bag size = 21581, Price = 192736
+Greedy won, Bag size = 21806, Price = 193273
+Greedy won, Bag size = 22030, Price = 193582
+Greedy won, Bag size = 22255, Price = 193582
+Greedy won, Bag size = 22480, Price = 194203
+
+Tie: 1 Times
+Genetic: 2 Times
+Greedy: 97 Times
+
+
+Test 7, NumberOfItems = 58
+
+Genetic won, Bag size = 257, Price = 2845
+Genetic won, Bag size = 515, Price = 6399
+Greedy won, Bag size = 772, Price = 9958
+Genetic won, Bag size = 1029, Price = 13394
+Greedy won, Bag size = 1287, Price = 16749
+Greedy won, Bag size = 1544, Price = 20193
+Greedy won, Bag size = 1801, Price = 23200
+Greedy won, Bag size = 2059, Price = 26190
+Greedy won, Bag size = 2316, Price = 29801
+Greedy won, Bag size = 2573, Price = 33493
+Greedy won, Bag size = 2831, Price = 36352
+Greedy won, Bag size = 3088, Price = 39433
+Greedy won, Bag size = 3345, Price = 42336
+Greedy won, Bag size = 3603, Price = 45916
+Greedy won, Bag size = 3860, Price = 49021
+Greedy won, Bag size = 4117, Price = 52002
+Greedy won, Bag size = 4375, Price = 55072
+Greedy won, Bag size = 4632, Price = 58201
+Greedy won, Bag size = 4889, Price = 61060
+Greedy won, Bag size = 5147, Price = 64177
+Greedy won, Bag size = 5404, Price = 66971
+Greedy won, Bag size = 5661, Price = 69316
+Greedy won, Bag size = 5919, Price = 72517
+Greedy won, Bag size = 6176, Price = 75188
+Greedy won, Bag size = 6434, Price = 78433
+Greedy won, Bag size = 6691, Price = 80437
+Greedy won, Bag size = 6948, Price = 82994
+Greedy won, Bag size = 7206, Price = 84769
+Greedy won, Bag size = 7463, Price = 87404
+Greedy won, Bag size = 7720, Price = 90511
+Greedy won, Bag size = 7978, Price = 93112
+Greedy won, Bag size = 8235, Price = 95695
+Greedy won, Bag size = 8492, Price = 97470
+Greedy won, Bag size = 8750, Price = 101304
+Greedy won, Bag size = 9007, Price = 102986
+Greedy won, Bag size = 9264, Price = 105569
+Greedy won, Bag size = 9522, Price = 108126
+Greedy won, Bag size = 9779, Price = 110294
+Greedy won, Bag size = 10036, Price = 112851
+Greedy won, Bag size = 10294, Price = 114759
+Greedy won, Bag size = 10551, Price = 117116
+Greedy won, Bag size = 10808, Price = 118891
+Greedy won, Bag size = 11066, Price = 120397
+Greedy won, Bag size = 11323, Price = 122847
+Greedy won, Bag size = 11580, Price = 124945
+Greedy won, Bag size = 11838, Price = 128460
+Greedy won, Bag size = 12095, Price = 130127
+Greedy won, Bag size = 12352, Price = 131766
+Greedy won, Bag size = 12610, Price = 133864
+Greedy won, Bag size = 12867, Price = 135370
+Greedy won, Bag size = 13124, Price = 137229
+Greedy won, Bag size = 13382, Price = 138868
+Greedy won, Bag size = 13639, Price = 141185
+Greedy won, Bag size = 13896, Price = 142691
+Greedy won, Bag size = 14154, Price = 144328
+Greedy won, Bag size = 14411, Price = 146645
+Greedy won, Bag size = 14668, Price = 148151
+Greedy won, Bag size = 14926, Price = 149503
+Greedy won, Bag size = 15183, Price = 151754
+Greedy won, Bag size = 15440, Price = 153260
+Greedy won, Bag size = 15698, Price = 154920
+Greedy won, Bag size = 15955, Price = 156670
+Greedy won, Bag size = 16212, Price = 159154
+Greedy won, Bag size = 16470, Price = 160660
+Greedy won, Bag size = 16727, Price = 162256
+Greedy won, Bag size = 16984, Price = 164284
+Greedy won, Bag size = 17242, Price = 165790
+Greedy won, Bag size = 17499, Price = 167142
+Greedy won, Bag size = 17756, Price = 168652
+Greedy won, Bag size = 18014, Price = 170566
+Greedy won, Bag size = 18271, Price = 172118
+Greedy won, Bag size = 18528, Price = 173062
+Greedy won, Bag size = 18786, Price = 174432
+Greedy won, Bag size = 19043, Price = 175964
+Greedy won, Bag size = 19301, Price = 177147
+Greedy won, Bag size = 19558, Price = 178413
+Greedy won, Bag size = 19815, Price = 179945
+Greedy won, Bag size = 20073, Price = 180801
+Greedy won, Bag size = 20330, Price = 181443
+Greedy won, Bag size = 20587, Price = 183472
+Greedy won, Bag size = 20845, Price = 184158
+Greedy won, Bag size = 21102, Price = 185480
+Greedy won, Bag size = 21359, Price = 186410
+Greedy won, Bag size = 21617, Price = 186959
+Greedy won, Bag size = 21874, Price = 188704
+Greedy won, Bag size = 22131, Price = 189634
+Greedy won, Bag size = 22389, Price = 190227
+Greedy won, Bag size = 22646, Price = 190705
+Greedy won, Bag size = 22903, Price = 191619
+Greedy won, Bag size = 23161, Price = 192097
+Greedy won, Bag size = 23418, Price = 193077
+Greedy won, Bag size = 23675, Price = 193555
+Greedy won, Bag size = 23933, Price = 194399
+Greedy won, Bag size = 24190, Price = 194443
+Greedy won, Bag size = 24447, Price = 195309
+Greedy won, Bag size = 24705, Price = 195309
+Tie, Bag size = 24962, Price = 195757
+Greedy won, Bag size = 25219, Price = 195967
+Greedy won, Bag size = 25477, Price = 195757
+
+Tie: 1 Times
+Genetic: 3 Times
+Greedy: 95 Times
+
+
+Test 8, NumberOfItems = 66
+
+Tie, Bag size = 332, Price = 4408
+Tie, Bag size = 664, Price = 8830
+Greedy won, Bag size = 996, Price = 13092
+Greedy won, Bag size = 1328, Price = 17318
+Greedy won, Bag size = 1660, Price = 22374
+Greedy won, Bag size = 1993, Price = 27330
+Greedy won, Bag size = 2325, Price = 31840
+Greedy won, Bag size = 2657, Price = 35796
+Greedy won, Bag size = 2989, Price = 40447
+Greedy won, Bag size = 3321, Price = 44931
+Greedy won, Bag size = 3653, Price = 48887
+Greedy won, Bag size = 3985, Price = 52911
+Greedy won, Bag size = 4317, Price = 57249
+Greedy won, Bag size = 4649, Price = 60517
+Greedy won, Bag size = 4982, Price = 64583
+Greedy won, Bag size = 5314, Price = 68521
+Greedy won, Bag size = 5646, Price = 71832
+Greedy won, Bag size = 5978, Price = 75138
+Greedy won, Bag size = 6310, Price = 78504
+Greedy won, Bag size = 6642, Price = 82655
+Greedy won, Bag size = 6974, Price = 86181
+Greedy won, Bag size = 7306, Price = 90005
+Greedy won, Bag size = 7638, Price = 93165
+Greedy won, Bag size = 7970, Price = 96531
+Greedy won, Bag size = 8303, Price = 101422
+Greedy won, Bag size = 8635, Price = 103890
+Greedy won, Bag size = 8967, Price = 108026
+Greedy won, Bag size = 9299, Price = 111497
+Greedy won, Bag size = 9631, Price = 115633
+Greedy won, Bag size = 9963, Price = 118643
+Greedy won, Bag size = 10295, Price = 120776
+Greedy won, Bag size = 10627, Price = 125353
+Greedy won, Bag size = 10959, Price = 128347
+Greedy won, Bag size = 11291, Price = 131093
+Greedy won, Bag size = 11624, Price = 135057
+Greedy won, Bag size = 11956, Price = 137803
+Greedy won, Bag size = 12288, Price = 141416
+Greedy won, Bag size = 12620, Price = 143931
+Greedy won, Bag size = 12952, Price = 146182
+Greedy won, Bag size = 13284, Price = 150312
+Greedy won, Bag size = 13616, Price = 152752
+Greedy won, Bag size = 13948, Price = 155901
+Greedy won, Bag size = 14280, Price = 158341
+Greedy won, Bag size = 14612, Price = 162030
+Greedy won, Bag size = 14945, Price = 164470
+Greedy won, Bag size = 15277, Price = 166561
+Greedy won, Bag size = 15609, Price = 170928
+Greedy won, Bag size = 15941, Price = 173059
+Greedy won, Bag size = 16273, Price = 176104
+Greedy won, Bag size = 16605, Price = 178544
+Greedy won, Bag size = 16937, Price = 180635
+Greedy won, Bag size = 17269, Price = 184136
+Greedy won, Bag size = 17601, Price = 186110
+Greedy won, Bag size = 17933, Price = 189112
+Greedy won, Bag size = 18266, Price = 191707
+Greedy won, Bag size = 18598, Price = 193405
+Greedy won, Bag size = 18930, Price = 196056
+Greedy won, Bag size = 19262, Price = 198375
+Greedy won, Bag size = 19594, Price = 200611
+Greedy won, Bag size = 19926, Price = 202624
+Greedy won, Bag size = 20258, Price = 204210
+Greedy won, Bag size = 20590, Price = 206310
+Greedy won, Bag size = 20922, Price = 208294
+Greedy won, Bag size = 21254, Price = 209515
+Greedy won, Bag size = 21586, Price = 211543
+Greedy won, Bag size = 21919, Price = 213409
+Greedy won, Bag size = 22251, Price = 214298
+Greedy won, Bag size = 22583, Price = 216214
+Greedy won, Bag size = 22915, Price = 217965
+Greedy won, Bag size = 23247, Price = 219809
+Greedy won, Bag size = 23579, Price = 220455
+Greedy won, Bag size = 23911, Price = 223173
+Greedy won, Bag size = 24243, Price = 223819
+Greedy won, Bag size = 24575, Price = 224984
+Greedy won, Bag size = 24907, Price = 226119
+Greedy won, Bag size = 25240, Price = 226693
+Greedy won, Bag size = 25572, Price = 227858
+Greedy won, Bag size = 25904, Price = 228588
+Greedy won, Bag size = 26236, Price = 229316
+Greedy won, Bag size = 26568, Price = 229890
+Greedy won, Bag size = 26900, Price = 230602
+Greedy won, Bag size = 27232, Price = 231248
+Greedy won, Bag size = 27564, Price = 231952
+Greedy won, Bag size = 27896, Price = 232610
+Greedy won, Bag size = 28228, Price = 233183
+Greedy won, Bag size = 28561, Price = 233657
+Greedy won, Bag size = 28893, Price = 234447
+Greedy won, Bag size = 29225, Price = 234967
+Greedy won, Bag size = 29557, Price = 235757
+Greedy won, Bag size = 29889, Price = 236022
+Greedy won, Bag size = 30221, Price = 236463
+Greedy won, Bag size = 30553, Price = 236736
+Greedy won, Bag size = 30885, Price = 237001
+Greedy won, Bag size = 31217, Price = 237442
+Greedy won, Bag size = 31549, Price = 237577
+Greedy won, Bag size = 31882, Price = 238042
+Greedy won, Bag size = 32214, Price = 238442
+Greedy won, Bag size = 32546, Price = 238577
+Greedy won, Bag size = 32878, Price = 238877
+Greedy won, Bag size = 33210, Price = 239452
+
+Tie: 2 Times
+Genetic: 0 Times
+Greedy: 98 Times
+
+
+Test 9, NumberOfItems = 74
+
+Genetic won, Bag size = 374, Price = 4975
+Genetic won, Bag size = 749, Price = 10296
+Greedy won, Bag size = 1123, Price = 15356
+Greedy won, Bag size = 1497, Price = 20698
+Greedy won, Bag size = 1872, Price = 25723
+Greedy won, Bag size = 2246, Price = 31122
+Greedy won, Bag size = 2620, Price = 36004
+Greedy won, Bag size = 2994, Price = 41418
+Greedy won, Bag size = 3369, Price = 46300
+Greedy won, Bag size = 3743, Price = 51424
+Greedy won, Bag size = 4117, Price = 56306
+Greedy won, Bag size = 4492, Price = 61248
+Greedy won, Bag size = 4866, Price = 66214
+Greedy won, Bag size = 5240, Price = 70849
+Greedy won, Bag size = 5615, Price = 75570
+Greedy won, Bag size = 5989, Price = 79676
+Greedy won, Bag size = 6363, Price = 85077
+Greedy won, Bag size = 6737, Price = 90380
+Greedy won, Bag size = 7112, Price = 94853
+Greedy won, Bag size = 7486, Price = 98959
+Greedy won, Bag size = 7860, Price = 103795
+Greedy won, Bag size = 8235, Price = 108332
+Greedy won, Bag size = 8609, Price = 111931
+Greedy won, Bag size = 8983, Price = 116962
+Greedy won, Bag size = 9358, Price = 121305
+Greedy won, Bag size = 9732, Price = 125355
+Greedy won, Bag size = 10106, Price = 129480
+Greedy won, Bag size = 10480, Price = 133152
+Greedy won, Bag size = 10855, Price = 137446
+Greedy won, Bag size = 11229, Price = 140846
+Greedy won, Bag size = 11603, Price = 145132
+Greedy won, Bag size = 11978, Price = 148872
+Greedy won, Bag size = 12352, Price = 152582
+Greedy won, Bag size = 12726, Price = 156322
+Greedy won, Bag size = 13100, Price = 159271
+Greedy won, Bag size = 13475, Price = 162501
+Greedy won, Bag size = 13849, Price = 166482
+Greedy won, Bag size = 14223, Price = 169909
+Greedy won, Bag size = 14598, Price = 172545
+Greedy won, Bag size = 14972, Price = 176209
+Greedy won, Bag size = 15346, Price = 179902
+Greedy won, Bag size = 15721, Price = 180753
+Greedy won, Bag size = 16095, Price = 186793
+Greedy won, Bag size = 16469, Price = 188172
+Greedy won, Bag size = 16843, Price = 192906
+Greedy won, Bag size = 17218, Price = 195785
+Greedy won, Bag size = 17592, Price = 197581
+Greedy won, Bag size = 17966, Price = 200129
+Greedy won, Bag size = 18341, Price = 202435
+Greedy won, Bag size = 18715, Price = 204756
+Greedy won, Bag size = 19089, Price = 206942
+Greedy won, Bag size = 19464, Price = 209651
+Greedy won, Bag size = 19838, Price = 212117
+Greedy won, Bag size = 20212, Price = 212968
+Greedy won, Bag size = 20586, Price = 215747
+Greedy won, Bag size = 20961, Price = 218084
+Greedy won, Bag size = 21335, Price = 220009
+Greedy won, Bag size = 21709, Price = 220996
+Greedy won, Bag size = 22084, Price = 223252
+Greedy won, Bag size = 22458, Price = 225589
+Greedy won, Bag size = 22832, Price = 227433
+Greedy won, Bag size = 23207, Price = 228420
+Greedy won, Bag size = 23581, Price = 230581
+Greedy won, Bag size = 23955, Price = 232152
+Greedy won, Bag size = 24329, Price = 234441
+Greedy won, Bag size = 24704, Price = 236012
+Greedy won, Bag size = 25078, Price = 237109
+Greedy won, Bag size = 25452, Price = 238133
+Greedy won, Bag size = 25827, Price = 240393
+Greedy won, Bag size = 26201, Price = 241663
+Greedy won, Bag size = 26575, Price = 242249
+Greedy won, Bag size = 26950, Price = 243629
+Greedy won, Bag size = 27324, Price = 244683
+Greedy won, Bag size = 27698, Price = 246063
+Greedy won, Bag size = 28072, Price = 246609
+Greedy won, Bag size = 28447, Price = 248319
+Greedy won, Bag size = 28821, Price = 249011
+Greedy won, Bag size = 29195, Price = 249869
+Greedy won, Bag size = 29570, Price = 251267
+Greedy won, Bag size = 29944, Price = 252125
+Greedy won, Bag size = 30318, Price = 253722
+Greedy won, Bag size = 30693, Price = 254244
+Greedy won, Bag size = 31067, Price = 255354
+Greedy won, Bag size = 31441, Price = 255940
+Greedy won, Bag size = 31815, Price = 256798
+Greedy won, Bag size = 32190, Price = 257204
+Greedy won, Bag size = 32564, Price = 257561
+Greedy won, Bag size = 32938, Price = 258700
+Greedy won, Bag size = 33313, Price = 259211
+Greedy won, Bag size = 33687, Price = 260574
+Greedy won, Bag size = 34061, Price = 261031
+Greedy won, Bag size = 34436, Price = 262018
+Greedy won, Bag size = 34810, Price = 262424
+Greedy won, Bag size = 35184, Price = 262781
+Greedy won, Bag size = 35558, Price = 263212
+Greedy won, Bag size = 35933, Price = 263609
+Greedy won, Bag size = 36307, Price = 263970
+Greedy won, Bag size = 36681, Price = 264287
+Greedy won, Bag size = 37056, Price = 264416
+Greedy won, Bag size = 37430, Price = 265114
+
+Tie: 0 Times
+Genetic: 2 Times
+Greedy: 98 Times
+
+
+Test 10, NumberOfItems = 82
+
+Greedy won, Bag size = 405, Price = 5255
+Greedy won, Bag size = 810, Price = 11188
+Greedy won, Bag size = 1215, Price = 16874
+Greedy won, Bag size = 1621, Price = 22680
+Greedy won, Bag size = 2026, Price = 28203
+Greedy won, Bag size = 2431, Price = 33731
+Greedy won, Bag size = 2836, Price = 39065
+Greedy won, Bag size = 3241, Price = 45015
+Greedy won, Bag size = 3646, Price = 50897
+Greedy won, Bag size = 4051, Price = 55963
+Greedy won, Bag size = 4456, Price = 61127
+Greedy won, Bag size = 4862, Price = 66387
+Greedy won, Bag size = 5267, Price = 72168
+Greedy won, Bag size = 5672, Price = 77156
+Greedy won, Bag size = 6077, Price = 82004
+Greedy won, Bag size = 6482, Price = 87720
+Greedy won, Bag size = 6887, Price = 92518
+Greedy won, Bag size = 7292, Price = 97235
+Greedy won, Bag size = 7697, Price = 102261
+Greedy won, Bag size = 8103, Price = 106717
+Greedy won, Bag size = 8508, Price = 111530
+Greedy won, Bag size = 8913, Price = 116712
+Greedy won, Bag size = 9318, Price = 121137
+Greedy won, Bag size = 9723, Price = 126083
+Greedy won, Bag size = 10128, Price = 130692
+Greedy won, Bag size = 10533, Price = 135467
+Greedy won, Bag size = 10939, Price = 139985
+Greedy won, Bag size = 11344, Price = 144459
+Greedy won, Bag size = 11749, Price = 148798
+Greedy won, Bag size = 12154, Price = 153077
+Greedy won, Bag size = 12559, Price = 157740
+Greedy won, Bag size = 12964, Price = 161551
+Greedy won, Bag size = 13369, Price = 165272
+Greedy won, Bag size = 13774, Price = 170450
+Greedy won, Bag size = 14180, Price = 174171
+Greedy won, Bag size = 14585, Price = 178520
+Greedy won, Bag size = 14990, Price = 182241
+Greedy won, Bag size = 15395, Price = 186785
+Greedy won, Bag size = 15800, Price = 191165
+Greedy won, Bag size = 16205, Price = 195229
+Greedy won, Bag size = 16610, Price = 198561
+Greedy won, Bag size = 17015, Price = 203299
+Greedy won, Bag size = 17421, Price = 206631
+Greedy won, Bag size = 17826, Price = 210303
+Greedy won, Bag size = 18231, Price = 214520
+Greedy won, Bag size = 18636, Price = 217977
+Greedy won, Bag size = 19041, Price = 221265
+Greedy won, Bag size = 19446, Price = 225072
+Greedy won, Bag size = 19851, Price = 228744
+Greedy won, Bag size = 20256, Price = 231826
+Greedy won, Bag size = 20662, Price = 234437
+Greedy won, Bag size = 21067, Price = 239383
+Greedy won, Bag size = 21472, Price = 242249
+Greedy won, Bag size = 21877, Price = 245782
+Greedy won, Bag size = 22282, Price = 248648
+Greedy won, Bag size = 22687, Price = 252499
+Greedy won, Bag size = 23092, Price = 255110
+Greedy won, Bag size = 23498, Price = 258243
+Greedy won, Bag size = 23903, Price = 260719
+Greedy won, Bag size = 24308, Price = 263593
+Greedy won, Bag size = 24713, Price = 266045
+Greedy won, Bag size = 25118, Price = 269389
+Greedy won, Bag size = 25523, Price = 271841
+Greedy won, Bag size = 25928, Price = 274430
+Greedy won, Bag size = 26333, Price = 276764
+Greedy won, Bag size = 26739, Price = 279194
+Greedy won, Bag size = 27144, Price = 281133
+Greedy won, Bag size = 27549, Price = 283979
+Greedy won, Bag size = 27954, Price = 286347
+Greedy won, Bag size = 28359, Price = 288452
+Greedy won, Bag size = 28764, Price = 291359
+Greedy won, Bag size = 29169, Price = 292975
+Greedy won, Bag size = 29574, Price = 295095
+Greedy won, Bag size = 29980, Price = 296960
+Greedy won, Bag size = 30385, Price = 298670
+Greedy won, Bag size = 30790, Price = 300168
+Greedy won, Bag size = 31195, Price = 302192
+Greedy won, Bag size = 31600, Price = 303434
+Greedy won, Bag size = 32005, Price = 304878
+Greedy won, Bag size = 32410, Price = 306772
+Greedy won, Bag size = 32816, Price = 308080
+Greedy won, Bag size = 33221, Price = 309832
+Greedy won, Bag size = 33626, Price = 311140
+Greedy won, Bag size = 34031, Price = 312280
+Greedy won, Bag size = 34436, Price = 313588
+Greedy won, Bag size = 34841, Price = 314362
+Greedy won, Bag size = 35246, Price = 314980
+Greedy won, Bag size = 35651, Price = 315806
+Greedy won, Bag size = 36057, Price = 316580
+Greedy won, Bag size = 36462, Price = 316840
+Greedy won, Bag size = 36867, Price = 318272
+Greedy won, Bag size = 37272, Price = 318808
+Greedy won, Bag size = 37677, Price = 319696
+Greedy won, Bag size = 38082, Price = 319956
+Greedy won, Bag size = 38487, Price = 321298
+Greedy won, Bag size = 38892, Price = 321298
+Greedy won, Bag size = 39298, Price = 321902
+Greedy won, Bag size = 39703, Price = 322535
+Greedy won, Bag size = 40108, Price = 322794
+Greedy won, Bag size = 40513, Price = 323372
+
+Tie: 0 Times
+Genetic: 0 Times
+Greedy: 100 Times
+
+
+Test 11, NumberOfItems = 90
+
+Greedy won, Bag size = 454, Price = 6049
+Greedy won, Bag size = 907, Price = 12458
+Greedy won, Bag size = 1360, Price = 18723
+Greedy won, Bag size = 1814, Price = 25133
+Greedy won, Bag size = 2268, Price = 31503
+Greedy won, Bag size = 2721, Price = 37591
+Greedy won, Bag size = 3174, Price = 43834
+Greedy won, Bag size = 3628, Price = 50204
+Greedy won, Bag size = 4082, Price = 56320
+Greedy won, Bag size = 4535, Price = 62690
+Greedy won, Bag size = 4988, Price = 68075
+Greedy won, Bag size = 5442, Price = 74316
+Greedy won, Bag size = 5896, Price = 79775
+Greedy won, Bag size = 6349, Price = 85720
+Greedy won, Bag size = 6802, Price = 91975
+Greedy won, Bag size = 7256, Price = 97940
+Greedy won, Bag size = 7710, Price = 103160
+Greedy won, Bag size = 8163, Price = 108820
+Greedy won, Bag size = 8616, Price = 114451
+Greedy won, Bag size = 9070, Price = 119588
+Greedy won, Bag size = 9524, Price = 125084
+Greedy won, Bag size = 9977, Price = 130604
+Greedy won, Bag size = 10430, Price = 135972
+Greedy won, Bag size = 10884, Price = 140459
+Greedy won, Bag size = 11338, Price = 145416
+Greedy won, Bag size = 11791, Price = 149837
+Greedy won, Bag size = 12244, Price = 154479
+Greedy won, Bag size = 12698, Price = 158203
+Greedy won, Bag size = 13152, Price = 162896
+Greedy won, Bag size = 13605, Price = 167779
+Greedy won, Bag size = 14058, Price = 171483
+Greedy won, Bag size = 14512, Price = 176867
+Greedy won, Bag size = 14966, Price = 181104
+Greedy won, Bag size = 15419, Price = 185256
+Greedy won, Bag size = 15872, Price = 188706
+Greedy won, Bag size = 16326, Price = 192356
+Greedy won, Bag size = 16780, Price = 197378
+Greedy won, Bag size = 17233, Price = 201455
+Greedy won, Bag size = 17686, Price = 204614
+Greedy won, Bag size = 18140, Price = 209026
+Greedy won, Bag size = 18594, Price = 213050
+Greedy won, Bag size = 19047, Price = 216742
+Greedy won, Bag size = 19500, Price = 221320
+Greedy won, Bag size = 19954, Price = 224634
+Greedy won, Bag size = 20408, Price = 228210
+Greedy won, Bag size = 20861, Price = 232240
+Greedy won, Bag size = 21314, Price = 235468
+Greedy won, Bag size = 21768, Price = 239344
+Greedy won, Bag size = 22222, Price = 242984
+Greedy won, Bag size = 22675, Price = 246880
+Greedy won, Bag size = 23128, Price = 250009
+Greedy won, Bag size = 23582, Price = 253386
+Greedy won, Bag size = 24036, Price = 256656
+Greedy won, Bag size = 24489, Price = 259661
+Greedy won, Bag size = 24942, Price = 263270
+Greedy won, Bag size = 25396, Price = 266066
+Greedy won, Bag size = 25850, Price = 269672
+Greedy won, Bag size = 26303, Price = 272593
+Greedy won, Bag size = 26756, Price = 275488
+Greedy won, Bag size = 27210, Price = 278820
+Greedy won, Bag size = 27664, Price = 282406
+Greedy won, Bag size = 28117, Price = 284869
+Greedy won, Bag size = 28570, Price = 288791
+Greedy won, Bag size = 29024, Price = 291337
+Greedy won, Bag size = 29478, Price = 295256
+Greedy won, Bag size = 29931, Price = 297321
+Greedy won, Bag size = 30384, Price = 300385
+Greedy won, Bag size = 30838, Price = 303137
+Greedy won, Bag size = 31292, Price = 305228
+Greedy won, Bag size = 31745, Price = 307418
+Greedy won, Bag size = 32198, Price = 309984
+Greedy won, Bag size = 32652, Price = 312406
+Greedy won, Bag size = 33106, Price = 314707
+Greedy won, Bag size = 33559, Price = 316511
+Greedy won, Bag size = 34012, Price = 318714
+Greedy won, Bag size = 34466, Price = 320254
+Greedy won, Bag size = 34920, Price = 322210
+Greedy won, Bag size = 35373, Price = 324078
+Greedy won, Bag size = 35826, Price = 326034
+Greedy won, Bag size = 36280, Price = 327306
+Greedy won, Bag size = 36734, Price = 328851
+Greedy won, Bag size = 37187, Price = 330970
+Greedy won, Bag size = 37640, Price = 332515
+Greedy won, Bag size = 38094, Price = 333991
+Greedy won, Bag size = 38548, Price = 335269
+Greedy won, Bag size = 39001, Price = 336041
+Greedy won, Bag size = 39454, Price = 337828
+Greedy won, Bag size = 39908, Price = 338600
+Greedy won, Bag size = 40362, Price = 340364
+Greedy won, Bag size = 40815, Price = 340818
+Greedy won, Bag size = 41268, Price = 341908
+Greedy won, Bag size = 41722, Price = 342362
+Greedy won, Bag size = 42176, Price = 343866
+Greedy won, Bag size = 42629, Price = 344320
+Greedy won, Bag size = 43082, Price = 345618
+Greedy won, Bag size = 43536, Price = 346058
+Greedy won, Bag size = 43990, Price = 346590
+Greedy won, Bag size = 44443, Price = 347079
+Greedy won, Bag size = 44896, Price = 347524
+Greedy won, Bag size = 45350, Price = 348006
+
+Tie: 0 Times
+Genetic: 0 Times
+Greedy: 100 Times
+
+
+Present of tie: 12%
+Present of genetic: 4%
+Present of greedy: 84%
